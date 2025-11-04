@@ -9,6 +9,7 @@ const route = useRoute()
 const getToken = ref(false)
 const isSidebarVisible = ref(true)
 
+
 onMounted(() => {
   getToken.value = !!localStorage.getItem('token')
 })
